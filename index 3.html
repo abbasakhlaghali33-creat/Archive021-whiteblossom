@@ -1,0 +1,107 @@
+<!doctype html>
+<html lang="fa" dir="rtl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="theme-color" content="#100d12">
+<meta name="description" content="ARCHIVE 021 — White Blossom. A private-feeling cinematic anniversary experience.">
+<title>ARCHIVE 021 — WHITE BLOSSOM</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Vazirmatn:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+<style>
+.film-placeholder.has-photo{position:relative;display:block;overflow:hidden;padding:0;min-height:0;aspect-ratio:16/10;background:#151116;border:1px solid rgba(255,255,255,.15)}
+.film-placeholder.has-photo img{display:block;width:100%;height:100%;max-height:650px;object-fit:cover;object-position:center 35%;filter:saturate(.82) contrast(1.03)}
+.photo-stamp{position:absolute;bottom:14px;left:14px;padding:8px 10px;background:rgba(15,10,15,.72);color:#f4dce5;font-size:10px;letter-spacing:.12em}
+.memory-gallery{padding:30px 0 100px}.memory-gallery .gallery-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:14px}.memory-gallery figure{margin:0;position:relative;overflow:hidden;background:#191319;aspect-ratio:4/5;border:1px solid rgba(255,255,255,.12)}.memory-gallery img{width:100%;height:100%;object-fit:cover;display:block;filter:saturate(.8);transition:transform .7s ease,filter .7s ease}.memory-gallery figure:hover img{transform:scale(1.045);filter:saturate(1)}.memory-gallery figcaption{position:absolute;left:0;right:0;bottom:0;padding:28px 12px 12px;background:linear-gradient(transparent,rgba(10,7,10,.85));font-size:12px;color:#f4e8ed}
+@media(max-width:650px){.memory-gallery .gallery-grid{grid-template-columns:repeat(2,minmax(0,1fr));gap:9px}.memory-gallery figure:last-child{grid-column:span 2;aspect-ratio:16/9}}
+</style></head>
+<body>
+<div class="grain" aria-hidden="true"></div>
+<div class="progress" id="progress"></div>
+<header class="topbar">
+  <a class="brand" href="#top" aria-label="بازگشت به ابتدا"><span class="brand-mark">021</span><span>WHITE BLOSSOM<br><small>PRIVATE MEMORY ARCHIVE</small></span></a>
+  <button class="sound-toggle" id="soundToggle" aria-label="پخش یا توقف موسیقی"><span class="sound-dot"></span><span id="soundLabel">موسیقی خاموش</span></button>
+</header>
+
+<main id="top">
+  <section class="hero section">
+    <div class="hero-orbit orbit-one"></div><div class="hero-orbit orbit-two"></div>
+    <div class="hero-copy reveal">
+      <p class="eyebrow"><span class="eyebrow-line"></span> CASE FILE NO. 021 / EST. 2026</p>
+      <p class="hero-kicker">برای کسی که اتفاقی نبود</p>
+      <h1>ARCHIVE<br><em>021</em></h1>
+      <div class="hero-rule"><span></span><span class="rule-star">✳</span><span></span></div>
+      <h2>WHITE BLOSSOM</h2>
+      <p class="hero-sub">نه ماه از یک اتفاق معمولی؛<br>و داستانی که هنوز تمام نشده.</p>
+      <button class="primary-btn" id="beginBtn">ورود به آرشیو <span>↙</span></button>
+    </div>
+    <div class="hero-side-note mono">ABBAS × KIANA<br>9 MONTHS / ONE STORY</div>
+    <div class="hero-bottom"><span>SCROLL TO UNFOLD</span><span class="scroll-line"></span><span>01 — 09</span></div>
+  </section>
+
+  <section class="intro section" id="intro">
+    <div class="section-index reveal"><span>01</span><i></i><span>THE BEGINNING</span></div>
+    <div class="intro-grid">
+      <div class="intro-heading reveal"><p class="eyebrow">THE FIRST FRAME</p><h2>همه‌چیز از<br>یک روز معمولی<br><em>شروع شد.</em></h2></div>
+      <div class="intro-text reveal"><span class="quote-mark">“</span><p>دهم آبان بود. یک دختر با موهای بنفش، مانتوی مشکی و عینکی که بالای سرش بود. آن روز فقط یک چهره متفاوت در دانشگاه بود؛ من هنوز نمی‌دانستم قرار است اسمش، یکی از عزیزترین کلمه‌های زندگی‌ام شود.</p><p class="small-note">بعضی داستان‌ها قبل از اینکه شروع شوند، آرام‌آرام نشانه‌هایشان را جا می‌گذارند.</p></div>
+    </div>
+    <div class="film-strip reveal"><div class="film-label mono">FRAME 001 / UNIVERSITY</div><div class="film-placeholder has-photo"><img src="assets/photos/first-meeting.jpg" alt="خاطره دانشگاه و شروع داستان ما"><span class="photo-stamp mono">10 ABAN · FRAME 001</span></div><div class="frame-caption">THE GIRL WITH PURPLE HAIR</div></div>
+  </section>
+
+  <section class="evidence section" id="evidence">
+    <div class="section-index reveal"><span>02</span><i></i><span>THE EVIDENCE</span></div>
+    <div class="section-title reveal"><p class="eyebrow">FOUR PIECES OF US</p><h2>مدارکِ یک <em>عاشقانه</em></h2><p>هر خاطره، یک تکه از داستانی که فقط ما معنایش را می‌دانیم.</p></div>
+    <div class="evidence-list">
+      <article class="evidence-card reveal"><div class="evidence-number mono">EVIDENCE / 01</div><div class="evidence-media"><img src="assets/photos/cafe-terrace.jpg" alt="خاطره کافه تراس" onerror="this.style.display='none';this.nextElementSibling.style.display='grid'"><div class="media-fallback"><span>01</span><b>CAFÉ TERRACE</b><small>assets/photos/cafe-terrace.jpg</small></div></div><div class="evidence-copy"><p class="eyebrow">FIRST DATE</p><h3>کافه تراس</h3><p>اولین قرارمان؛ شکلات‌هایی که یواشکی برایت گرفتم و بعد فهمیدم اصلاً شکلات دوست نداری! شاید هنوز خیلی چیزها را درباره‌ات نمی‌دانستم، اما دلم می‌خواست بیشتر بشناسمت.</p><span class="evidence-tag">A SWEET MISTAKE</span></div></article>
+      <article class="evidence-card reverse reveal"><div class="evidence-number mono">EVIDENCE / 02</div><div class="evidence-media"><img src="assets/photos/mehr-street.jpg" alt="خاطره خیابان مهر" onerror="this.style.display='none';this.nextElementSibling.style.display='grid'"><div class="media-fallback"><span>02</span><b>MEHR STREET</b><small>assets/photos/mehr-street.jpg</small></div></div><div class="evidence-copy"><p class="eyebrow">A PLACE BECAME A MEMORY</p><h3>خیابان مهر</h3><p>بعضی خیابان‌ها فقط راه رسیدن به یک مقصدند؛ بعضی‌ها تبدیل به خاطره می‌شوند. برای من، خیابان مهر دیگر فقط یک خیابان نیست.</p><span class="evidence-tag">STILL IN MY MIND</span></div></article>
+      <article class="evidence-card reveal"><div class="evidence-number mono">EVIDENCE / 03</div><div class="evidence-media"><img src="assets/photos/garden.jpg" alt="خاطره باغ" onerror="this.style.display='none';this.nextElementSibling.style.display='grid'"><div class="media-fallback"><span>03</span><b>THE GARDEN</b><small>assets/photos/garden.jpg</small></div></div><div class="evidence-copy"><p class="eyebrow">TIME FORGOT US</p><h3>باغ و بی‌خیالیِ زمان</h3><p>از آب‌بازی‌مان تا لحظه‌هایی که یادمان می‌رفت زمان چطور می‌گذرد. بعضی روزها را نمی‌شود نگه داشت؛ فقط می‌شود تا همیشه با خودمان برد.</p><span class="evidence-tag">A DAY I KEEP</span></div></article>
+      <article class="evidence-card reverse reveal"><div class="evidence-number mono">EVIDENCE / 04</div><div class="evidence-media"><img src="assets/photos/white-blossom.jpg" alt="گل سفید" onerror="this.style.display='none';this.nextElementSibling.style.display='grid'"><div class="media-fallback"><span>04</span><b>WHITE BLOSSOM</b><small>assets/photos/white-blossom.jpg</small></div></div><div class="evidence-copy"><p class="eyebrow">A NAME ONLY I KNOW</p><h3>شکوفه سفید من</h3><p>بین تمام اسم‌هایی که می‌شد صدایت کنم، یک اسم هست که برای من معنای دیگری دارد. شکوفه سفید؛ یادآور لطافتِ چیزی که دوست دارم مراقبش باشم.</p><span class="evidence-tag">MY WHITE BLOSSOM</span></div></article>
+    </div>
+  </section>
+
+  <section class="memory-gallery section" aria-label="چند قاب دیگر از خاطرات ما">
+    <div class="section-index reveal"><span>02.5</span><i></i><span>UNFILED MEMORIES</span></div>
+    <div class="section-title reveal"><p class="eyebrow">THE FRAMES I COULDN'T LEAVE OUT</p><h2>چند قابِ دیگر از <em>ما</em></h2><p>چون بعضی خاطره‌ها توی چهار قاب جا نمی‌شوند.</p></div>
+    <div class="gallery-grid">
+      <figure class="reveal"><img src="assets/photos/kiana-portrait.jpg" alt="پرتره کیانا" loading="lazy"><figcaption>THE WHITE BLOSSOM</figcaption></figure>
+      <figure class="reveal"><img src="assets/photos/mirror-memory.jpg" alt="یک قاب آینه‌ای از خاطرات" loading="lazy"><figcaption>AN ORDINARY, SPECIAL DAY</figcaption></figure>
+      <figure class="reveal"><img src="assets/photos/night-walk.jpg" alt="خاطره شبانه دونفره" loading="lazy"><figcaption>JUST KEEP WALKING</figcaption></figure>
+    </div>
+  </section>
+
+  <section class="interlude section">
+    <div class="interlude-backdrop"></div><div class="interlude-content reveal"><p class="eyebrow">NOT EVERY FRAME WAS PERFECT</p><span class="big-asterisk">✳</span><h2>خاطره‌ها همیشه<br>بی‌نقص نیستند.</h2><p>گاهی شیک روی صندلی ماشین می‌ریزد. گاهی هدیه آن چیزی نمی‌شود که تصورش را کرده بودیم. گاهی روزها آسان نیستند. اما داستان واقعی، از همین لحظه‌های کوچک و واقعی ساخته می‌شود.</p><div class="interlude-signature mono">THE BEAUTY IS IN THE REAL</div></div>
+  </section>
+
+  <section class="question section" id="question">
+    <div class="section-index reveal"><span>03</span><i></i><span>THE UNANSWERED QUESTION</span></div>
+    <div class="question-card reveal"><p class="eyebrow">ARCHIVE 021 / ENTRY REQUIRED</p><div class="lock-icon">⌁</div><h2>پرونده هنوز<br><em>بسته نشده.</em></h2><p class="question-lead">یک سؤال باقی مانده؛ جوابی که فقط تو می‌توانی به آن بدهی.</p><label for="memoryAnswer">اگر می‌توانستی فقط یک روز از این نه ماه را برای همیشه نگه داری، کدام روز را انتخاب می‌کردی؟</label><textarea id="memoryAnswer" rows="3" placeholder="هر چیزی که دلت می‌خواهد بگو..."></textarea><button class="primary-btn" id="unlockBtn">ثبت پاسخ و باز کردن فصل آخر <span>↙</span></button><p class="privacy-note">پاسخت فقط در همین صفحه استفاده می‌شود و به هیچ سروری ارسال نمی‌شود.</p></div>
+  </section>
+
+  <section class="finale section" id="finale" aria-hidden="true">
+    <div class="finale-stars"></div><div class="finale-inner">
+      <p class="eyebrow">FINAL ENTRY / ONLY FOR YOU</p><div class="flower-symbol">✳</div><p class="finale-overline">DEAR KIANA</p><h2>هنوز فصل‌های<br><em>زیادی مانده.</em></h2>
+      <div class="letter">
+        <p>کیانای من،</p>
+        <p>نه ماه پیش، تو برای من همان دختر متفاوتی بودی که با موهای بنفشش توی دانشگاه توجهم را جلب کرد.</p>
+        <p>نمی‌دانستم پشت آن اسم قرار است این‌همه خاطره جمع شود؛ از کافه تراس و خیابان مهر تا باغ، خنده‌هایمان، اشتباهات بامزه‌مان و روزهایی که همه‌چیز به آسانی پیش نرفت.</p>
+        <p>قشنگی داستان ما فقط به روزهای خوبش نیست؛ به این است که هنوز چیزهای زیادی برای شناختن و ساختن با هم داریم.</p>
+        <p>شکوفه سفید من، نمی‌خواهم قول بدهم همه روزهای آینده بی‌نقص باشند. می‌خواهم هر روز بیشتر یاد بگیرم چطور بهتر دوستت داشته باشم، چطور بهتر بفهممت و چطور کنار هم خاطره‌هایی بسازیم که سال‌ها بعد با لبخند تعریفشان کنیم.</p>
+        <p>اگر دوباره به همان روز دانشگاه برگردم، با دانستن تمام چیزهایی که امروز از تو می‌دانم، باز هم دوست دارم داستانمان از همان‌جا شروع شود.</p>
+        <p>نه ماه گذشت؛ اما هنوز خیلی از فصل‌های داستانمان نوشته نشده.</p>
+        <p class="letter-end">نه ماهگیمان مبارک، شکوفه سفید من. <span>♡</span></p>
+        <p class="signature">— عباس</p>
+      </div>
+      <div class="future-note"><span class="mono">NEXT CHAPTER: UNWRITTEN</span><p>این داستان فقط تا اینجا ضبط شده؛<br><em>ادامه‌اش را باید با هم زندگی کنیم.</em></p></div>
+      <div class="final-media"><video id="finalVideo" controls playsinline preload="metadata"><source src="assets/videos/our-moments.mp4" type="video/mp4">مرورگر شما از پخش ویدیو پشتیبانی نمی‌کند.</video><small>این ویدئو، قاب متحرکِ آرشیو ماست؛ صدا را خودت پخش کن و دوباره زندگی‌اش کن.</small></div>
+      <button class="text-btn" id="replayBtn">از اول تماشا کن ↗</button>
+    </div>
+  </section>
+</main>
+<footer><span>ARCHIVE 021</span><span>MADE WITH MEMORY, NOT PERFECTION</span><span>ABBAS × KIANA · 9 MONTHS</span></footer>
+<audio id="bgMusic" preload="metadata" loop><source src="assets/audio/our-song.mp3" type="audio/mpeg"></audio>
+<script src="script.js"></script>
+</body>
+</html>
